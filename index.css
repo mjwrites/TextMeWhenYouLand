@@ -15,7 +15,7 @@ body {
   width: 500px;
   height: auto;
   margin: 15% auto 0;
-  position: absolute;
+  position: fixed;
   width: 100%;
 }
 
@@ -117,6 +117,7 @@ svg {
   bottom: 0;
   overflow: hidden;
   transform: translateZ(0);
+  background-attachment: fixed;
 }
 
 .cloud {
@@ -209,6 +210,32 @@ svg {
   animation-duration: 20.5s;
 }
 
+.font {
+font-family: Helvetica-Bold;
+font-size: 24px;
+color: #00326A;
+letter-spacing: 0.39px;
+top: 70%;
+left: 27%;
+position: fixed;
+}
+
+.box {
+    position: fixed;
+    top: 77%;
+    left: 43%;
+}
+
+.entry {
+  top: 91%;
+  left: 27%;
+  position: fixed;
+}
+.logo {
+  position: fixed;
+  top: 40%;
+  left: 35%;
+}
 @-webkit-keyframes cloud-movement {
   0% {
     opacity: 0.1;
@@ -229,4 +256,5 @@ svg {
     -moz-transform: translateX(-1000px);
     transform: translateX(-1000px);
   }
+
 }
